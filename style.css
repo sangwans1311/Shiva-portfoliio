@@ -61,8 +61,8 @@ h1, h2 {
 .image {
     width: 100px;
     height: 100px;
-    position: absolute;
-    right: 350px;
+    position: relative;
+    left: 400px;
     border: 2px solid lightblue;
     border-radius: 10px;
 }
