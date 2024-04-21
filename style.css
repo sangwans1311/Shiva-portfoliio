@@ -67,6 +67,15 @@ h1, h2 {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .image {
+        width: 80px;
+        height: 80px;
+        left: 120px;
+        right: 20px; /* Adjust as needed */
+    }
+}
+
 .contact-info a:hover {
     color: var(--primary-dark);
     text-decoration: underline;
